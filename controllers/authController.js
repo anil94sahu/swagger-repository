@@ -19,7 +19,7 @@ export const registerController = async (req, res, next) => {
   // const user = await userModel.create({ name, email, password });
   //token
   // const token = user.createJWT();
-  res.status(201).send({
+  /* res.status(201).send({
     sucess: true,
     message: "User Created Successfully",
     user: {
@@ -28,8 +28,9 @@ export const registerController = async (req, res, next) => {
       email: user.email,
       // location: user.location,
     },
-    token,
-  });
+    // token,
+  }); */
+  res.json({mes: "successfully created api"})
 };
 
 export const loginController = async (req, res, next) => {
