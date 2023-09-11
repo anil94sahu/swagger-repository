@@ -38,8 +38,8 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:8080",
-            // url: "https://giddy-smock-bee.cyclic.app/"
+        // url: "http://localhost:8080",
+            url: "https://giddy-smock-bee.cyclic.app/"
       },
     ],
   },
